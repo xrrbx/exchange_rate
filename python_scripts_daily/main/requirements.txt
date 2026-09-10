@@ -1,0 +1,4 @@
+flask
+yfinance
+google-cloud-bigquery
+db-dtypes

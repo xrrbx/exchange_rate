@@ -3,8 +3,8 @@ version: '1.0.0'
 config-version: 2
 
 # Link to the main profile, but tell it to use your new target bucket!
-profile: 'jaffle_shop'
-target: 'exchange_rates'
+profile: 'exchange_rate_analytics'
+# target: 'exchange_rates' (removed on 10/09/26, before it worked fine, now the target is set in the profiles.yml file)
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
