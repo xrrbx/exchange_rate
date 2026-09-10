@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_api_data
+    database: "src-exchange-rate"  # The GCP project where raw data lands
+    schema: "raw"                  # The dataset name inside that project
+    tables:
+      - name: daily_exchange_rates # The name of the table your Python script will append to
+        description: "Raw daily JSON payloads pulled from the Frankfurter FX API."
