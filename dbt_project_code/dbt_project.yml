@@ -38,5 +38,5 @@ models:
 
     # 2. Route all marts models to the production/marts project
     marts:
-      +database: "exchange-rate"     # Directs dbt to write here
+      +database: "exchange-rate-502712"     # Directs dbt to write here
       +materialized: table

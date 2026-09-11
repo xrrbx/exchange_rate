@@ -7,3 +7,5 @@ sources:
     tables:
       - name: daily_exchange_rates # The name of the table your Python script will append to
         description: "Raw daily JSON payloads pulled from the Frankfurter FX API."
+      - name: historical_exchange_rates # The name of the table your Python script will append to
+        description: "Raw historical JSON payloads pulled from the Frankfurter FX API, from 2025-07-17 onwards. These are not regularly updated."
