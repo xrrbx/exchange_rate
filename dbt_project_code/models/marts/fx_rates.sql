@@ -28,5 +28,9 @@ ranked_rates AS (
   FROM historical_and_daily
 )
 
-SELECT *
+SELECT 
+  rates_date,
+  rate_eur,
+  rate_pen
 FROM ranked_rates
+WHERE row_num = 1
