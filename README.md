@@ -16,4 +16,5 @@ Done with a python script, including GCP credentials for authentication
 All transformation is done in dbt, with version control
 
 ## Presenting - Streamlit
-Dashboard made as an app on Streamlit
+Dashboard made as an app on Streamlit: https://github.com/xrrbx/streamlit_fx
+
